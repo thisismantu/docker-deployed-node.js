@@ -4,7 +4,7 @@ const app = express();
 const port = 8081;
 
 app.get('/', (req, res) => {
-  res.send('Hello, I am a simple Express server deployed with DevOps with WSL!');
+  res.send('Hello, I am a simple Express server deployed with DevOps with WSL v2.1!');
 });
 
 app.listen(port, '0.0.0.0', () => {
